@@ -161,7 +161,7 @@ Choices
 Validators
 ..........
 
-Custom validation and complex relationships between objects can achieved using the ``validator`` decorator.
+Custom validation and complex relationships between objects can be achieved using the ``validator`` decorator.
 
 .. literalinclude:: examples/validators_simple.py
 
