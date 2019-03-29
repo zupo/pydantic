@@ -620,7 +620,7 @@ a model.
 .. literalinclude:: examples/mutation.py
 
 Trying to change ``a`` caused an error and it remains unchanged, however the dict ``b`` is mutable and the
-immutability of ``foobar`` doesn't stop being changed.
+immutability of ``foobar`` doesn't stop it from being changed.
 
 Copying
 .......
