@@ -219,7 +219,7 @@ to set a dynamic default value.
 
 (This script is complete, it should run "as is")
 
-You'll often want to use this together with ``pre`` since otherwise the with ``always=True``
+You'll often want to use this together with ``pre`` since otherwise with ``always=True``
 *pydantic* would try to validate the default ``None`` which would cause an error.
 
 
