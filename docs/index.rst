@@ -356,7 +356,7 @@ Error Handling
    Validation code should not raise ``ValidationError`` itself, but rather raise ``ValueError`` or ``TypeError``
    (or subclasses thereof) which will be caught and used to populate ``ValidationError``.
 
-One exception will be raised regardless of the number of errors found, that ``ValidationError`` will
+One exception will be raised regardless of the number of errors found, and ``ValidationError`` will
 contain information about all the errors and how they happened.
 
 You can access these errors in a several ways:
