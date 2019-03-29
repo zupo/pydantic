@@ -712,7 +712,7 @@ to properly set types before the model can be used.
 .. warning::
 
    To resolve strings (type names) into annotations (types) *pydantic* needs a dict to lookup,
-   for this is uses ``module.__dict__`` just as ``get_type_hints`` does. That means *pydantic* does not play well
+   for this it uses ``module.__dict__`` just as ``get_type_hints`` does. That means *pydantic* does not play well
    with types not defined in the global scope of a module.
 
    For example, this works fine:
